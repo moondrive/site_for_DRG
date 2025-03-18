@@ -1,26 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="logs.css">
-    <script src="hhhh.js"></script>
+    <title>Deep Rock Galactic Fan Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>asd</h1>
-    <a href="ddd.html">link on page</a>
-    <p>
-        This is a paragrap123123asdasd
-    </p>
-    <h1>Heading h1</h1>
-    <h2>Heading h2</h2>
-    <h3>Heading h3</h3>
-    <h4>Heading h4</h4>
-    <h5>Heading h5</h5>
-    <h6>Heading h6</h6>
-    <b>bold</b> 
-    <a href="https://www.google.com">link</a>
-    <button id="tooltip-button">Hover me!</button>
+    <header>
+        <h1>Deep Rock Galactic Overclocs</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О игре</a></li>
+                <li><a href="#classes">Классы</a></li>
+                <li><a href="#weapons">Оружие</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#contact">тексываы</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>О игре</h2>
+            <p>Deep Rock Galactic - это кооперативный шутер от первого лица с элементами исследования и крафта, где вы играете за группу гномов, исследующих опасные подземелья.</p>
+        </section>
+        
+        <section id="classes">
+            <h2>Классы</h2>
+            <ul>
+                <li>scout</li>
+                <li>engener</li>
+                <li>driller</li>
+                <li>guner</li>
+            </ul>
+        </section>
+
+        <section id="weapons">
+            <h2>Оружие</h2>
+            <p>Каждый класс имеет уникальные виды оружия и специальностей, которые помогают выживать в опасных миссиях.</p>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Контакты</h3>
+        <p>Свяжитесь с нами по электронной почте: <a href="mailto:info@deeprockgalactic.com">xuy@mne_v_rot.com</a></p>
+    </footer>
 </body>
 </html>
