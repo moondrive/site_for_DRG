@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Rock Galactic Fan Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Deep Rock Galactic Overclocks</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Об игре</a></li>
+                <li><a href="#classes">Классы</a></li>
+                <li><a href="#weapons">Оружие</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#contact">тексываы</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="dropdown">
+        <button onclick="toggleDropdown()">Dropdown</button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        </div>
+    <main>
+        <section id="about">
+            <h2>Об игре</h2>
+            <p>Deep Rock Galactic - это кооперативный шутер от первого лица с элементами исследования и крафта, где вы играете за группу дварфов, исследующих опасные пещеры.</p>
+        </section>
+        
+        <section id="classes">
+            <h2>Классы</h2>
+            <ul>
+                <li>scout</li>
+                <li>engener</li>
+                <li>driller</li>
+                <li>guner</li>
+            </ul>
+        </section>
+
+        <section id="weapons">
+            <h2>Оружие</h2>
+            <p>Каждый класс имеет уникальные виды оружия и специальностей, которые помогают выживать в опасных миссиях.</p>
+        </section>
+    </main>
+    <footer>
+        <h3>Контакты</h3>
+        <p>Свяжитесь с нами по электронной почте: <a href="mailto:info@deeprockgalactic.com">xuy@mne_v_rot.com</a></p>
+    </footer>
+<script>
+        function toggleDropdown() {
+            document.querySelector('.dropdown').classList.toggle('show');
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('button')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.parentElement.classList.contains('show')) {
+                        openDropdown.parentElement.classList.remove('show');
+                    }
+                }
+            }
+        }
+</script>
+</body>
+</html>

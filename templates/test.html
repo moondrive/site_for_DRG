@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Dropdown</title>
+    <link rel="stylesheet" href="static/css/test.css"/>
+</head>
+<body>
+
+    <div class="dropdown">
+        <button onclick="toggleDropdown()">Dropdown</button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    <script>
+        function toggleDropdown() {
+            document.querySelector('.dropdown').classList.toggle('show');
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('button')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.parentElement.classList.contains('show')) {
+                        openDropdown.parentElement.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
