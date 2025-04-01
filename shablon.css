@@ -1,0 +1,87 @@
+.ibm-plex-mono-bold {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    font-family: "IBM Plex Mono", 'Arial', sans-serif;
+    color: aliceblue;
+    width: 100%;
+    background-image: url("1601.png"); /*1601.png, rofl.jpg*/
+    background-size: cover;
+}
+header {
+    text-align: center;
+    font-size: 3.5em;
+    margin:10px;
+}
+
+header h1{
+    color: rgba(255, 215, 207, 1);
+}
+h2{
+    color: rgba(158, 197, 255, 1);
+}
+main {
+    padding-bottom: 200px;
+}
+img {
+    padding-top: 7%;
+    margin-right:90%;
+    border-width: 1px;
+    border-style: ridge;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: rgb(0, 0, 0);
+    width: 900px;
+    height: 450px;
+}
+.text {
+
+    border-width: 1px;
+    border-style: ridge;
+    border-color: rgb(24, 2, 26);
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+}
+.opisanie h2{
+    color: rgba(180, 87, 183, 1);
+}
+.opisanie li{
+    color: rgba(233, 153, 198, 1);
+}
+ul.picture {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul.picture li {
+    margin: 10px;
+    flex: 300 0 200px;
+ }
+h3 {
+font-size: 22px;
+}
+
+h6 {
+font-size: 18px;
+}
+lasted {
+    font-size: 2em;
+    text-align: center;
+}
